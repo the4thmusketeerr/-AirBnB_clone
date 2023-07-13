@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-from uuid import uuid4
+from uuid import uuid4    #the uuid module in python helps genrate unique random keys that can be used as IDs.
 from datetime import datetime
 import models
 
@@ -9,7 +9,7 @@ class BaseModel:
     """Custom base for all the classes in the AirBnb console project
 
     Arttributes:
-        id(str): handles unique user identity
+        id(str): gives each BaseModel a unique identity
         created_at: assigns current datetime
         updated_at: updates current datetime
 
